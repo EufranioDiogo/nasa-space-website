@@ -1,0 +1,137 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin-top: 2rem;
+  position: relative;
+  align-self: flex-end;
+
+}
+
+.content-container--bottom-container {
+  flex-direction: row-reverse;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-container--page-identification {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+}
+
+.technology-controller-container {
+  width: 50%;
+  height: 100%;
+}
+.technology-info-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100%;
+}
+
+.technology-container {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  height: 65vh;
+  position: relative;
+}
+.technology-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.technology-position {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.technology-name {
+  font-size: 6.4rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.technology-about {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.technology-slider-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  list-style: none;
+}
+
+.controller-container--technology-option {
+  width: 10.8rem;
+  height: 10.8rem;
+  border: 0.1rem solid #fff;
+  border-radius: 50%;
+  margin: 1rem 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-slider--text-element {
+  font-size: 3.6rem;
+}
+
+.controller-container--technology-option:hover {
+  background-color: #fff;
+}
+
+.controller-container--technology-option:hover .technology-slider--text-element {
+  color: #000;
+}
+
+.controller-container--technology-option:first-child {
+  margin-top: 0;
+}
+
+.actual-selected-item {
+  background-color: #fff;
+}
+
+.actual-selected-item .technology-slider--text-element {
+  color: #000;
+}
+
+/*
+.technology-img {
+  height: 63.3rem;
+}*/
+
+.active-slider-element {
+  opacity: 1;
+  background-color: white;
+}

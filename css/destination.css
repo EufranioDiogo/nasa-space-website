@@ -7,7 +7,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 5rem 0;
+  margin: auto 0;
   left: 50%;
   transform: translateX(-50%);
 }
