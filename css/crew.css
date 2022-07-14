@@ -1,0 +1,98 @@
+.main-container {
+  background-image: url("./../assets/crew/background-crew-desktop.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.content-container--bottom-container {
+  flex-direction: row-reverse;
+  display: flex;
+  height: 100%;
+}
+
+.top-container--page-identification {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin-bottom: 4rem;
+}
+
+.crew-controller-container {
+  width: 50%;
+  height: 100%;
+}
+.crew-info-container {
+  height: 100%;
+}
+
+.crew-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.crew-position {
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  font-weight: 100;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.crew-name {
+  font-size: 6.4rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.crew-about {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.crew-slider-container {
+  display: flex;
+  margin-top: 10rem;
+  list-style: none;
+}
+
+.crew-slider-container--element {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #fff5;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.crew-slider-container--element:hover {
+  background-color: #fff;
+}
+
+.crew-slider-container--element:first-child {
+  margin-left: 0;
+}
+
+/*
+.crew-img {
+  height: 63.3rem;
+}*/
+
+.active-slider-element {
+  opacity: 1;
+  background-color: white;
+}

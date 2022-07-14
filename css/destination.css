@@ -1,3 +1,7 @@
+.main-container {
+  background-image: url("./../assets/destination/background-destination-desktop.jpg");
+}
+
 .content-container {
   width: 95vw;
   position: relative;
