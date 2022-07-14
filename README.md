@@ -1,8 +1,10 @@
-# Frontend Mentor - Space tourism website
+<h1><a href="https://eufraniodiogo.github.io/nasa-space-website/" target="_blank">Frontend Mentor - Space tourism website</a></h1>
 
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)
 
 ## Welcome! 👋
+
+- [Access](https://eufraniodiogo.github.io/nasa-space-website/)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. Our challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
 
@@ -49,7 +51,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://eufraniodiogo.github.io/nasa-space-website/)
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 
@@ -73,7 +75,7 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
 
 There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
+1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
 2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
